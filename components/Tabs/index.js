@@ -19,15 +19,14 @@ function createTab() {
             return newTab;
         })//end then
         .catch(err => console.log(err));
-
-    // return newTab;
 };//end createTab
 
-let aNewTab(obj) {
+function aNewTab(obj) {
     let newDiv = document.createElement("div");
-    newDiv.textContent = element;
-    tabContainer.appendChild(newTab);
-    return newTab;       
+    newDiv.classList.add("tab");
+    newDiv.textContent = obj;
+    tabContainer.appendChild(newDiv);
+    return newDiv;       
 }
 
 
