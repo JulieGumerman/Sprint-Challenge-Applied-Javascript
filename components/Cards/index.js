@@ -54,6 +54,7 @@ populateArticle();
 function createArticle(info) {
     //create card
     let card = document.createElement("div");
+    card.classList.add("card");
 
     //create headline
     let cardHeadline = document.createElement("div");
