@@ -23,8 +23,9 @@ function createTab() {
 
 function aNewTab(obj) {
     let newDiv = document.createElement("div");
+    newDiv.textContent = obj; 
+    //newDiv.classList.add("tab");
     newDiv.classList.add("tab");
-    newDiv.textContent = obj;
     tabContainer.appendChild(newDiv);
     return newDiv;       
 }

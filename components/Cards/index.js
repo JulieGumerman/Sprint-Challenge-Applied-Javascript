@@ -18,19 +18,6 @@
 //
 // Create a card for each of the articles and add the card to the DOM.
 
-// let tabContainer = document.querySelector(".tabs");
-// function createTab() {
-//     axios.get("https://lambda-times-backend.herokuapp.com/topics")
-//         .then(response => {
-//             console.log("Woohoo!")
-//             console.log(response);
-//             let newTab = response.data.topics.forEach(element => {
-//                 aNewTab(element);
-//             })//forEach
-//             return newTab;
-//         })//end then
-//         .catch(err => console.log(err));
-// };//end createTab
 
 
 let cardContainer = document.querySelector(".cards-container");

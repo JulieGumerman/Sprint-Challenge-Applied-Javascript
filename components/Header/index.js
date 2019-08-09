@@ -14,7 +14,7 @@ function Header() {
     //create header
     let headerContainer = document.querySelector(".header-container");
     let headerDiv = document.createElement("div");
-    headerDiv.classList.add(".header");
+    headerDiv.classList.add("header");
 
 
     //create date span
@@ -29,7 +29,7 @@ function Header() {
 
     //create temp span
     let tempSpan = document.createElement("span");
-    tempSpan.textContent = "98";
+    tempSpan.textContent = "98°";
     tempSpan.classList.add("temp");
 
 
