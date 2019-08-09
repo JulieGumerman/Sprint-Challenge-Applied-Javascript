@@ -17,3 +17,25 @@
 // </div>
 //
 // Create a card for each of the articles and add the card to the DOM.
+
+let cardContainer = document.querySelector(".cards-container");
+function createArticle(info) {
+    //create card
+    let card = document.createElement(div);
+
+    //create headline
+    let cardHeadline = document.createElement(div);
+    cardHeadline.classList.add("headline");
+    cardHeadline.textContent = info.headline;
+
+    //create author
+
+    //create img-container and image
+    //author name span
+
+    //put it together
+    cardContainer.appendChild(card);
+
+    //return it
+    return card;
+}
