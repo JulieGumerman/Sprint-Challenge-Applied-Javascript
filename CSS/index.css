@@ -193,7 +193,6 @@ body {
   cursor: pointer;
   font-weight: bold;
   text-transform: uppercase;
-  border: red solid 1px;
 }
 .tabs .topics .tab:hover {
   text-decoration: underline;
