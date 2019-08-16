@@ -24,32 +24,42 @@ In meeting the minimum viable product (MVP) specifications listed below, you sho
 
 ## Self-Study Questions
 
-Demonstrate your understanding of this week's concepts by answering the following free-form questions.
+[x] Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the DOM?
 
+DOM stands for "document object model." An abstract concept, the DOM is simultaneously the outline of your content and what a user sees on a screen. By using this concept, a programmer can manipulate what the user sees as certain events happen without ever touching the HTML.
+
 2. What is an event?
+
+An event is a thing that happens on the user's screen, such as a click, a mouseover, a copy, a load, or a submit. 
 
 3. What is an event listener?
 
+An event listener is a piece of JavaScript that listens for an event that happens on the screen. You attach it to an element of the document, and when that event happens, the event listener triggers an action to happen in response.
+
 4. Why would we convert a NodeList into an Array?
+
+If you convert a node list into an array, you can use methods like `.forEach()` and `.map()` to manipulate what users see on the screen. 
 
 5. What is a component?
 
+A component is a piece of code that sets up one part of your DOM. It's reusable, which makes life easier, and it has its own document, which makes it easier to find on a screen. A component is like having a basket of sweatshirts instead of having a drawer full of all sorts of shirts mixed together.
+
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [x] Fork the project into your GitHub user account
+* [x] Clone the forked project into a directory on your machine
+* [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [x] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
 Your finished project must include all of the following requirements:
 
-* [ ] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
+* [x] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
 
 * [ ] Following the instructions in the `Header/index.js` file, create the Header component. 
 
